@@ -1,6 +1,13 @@
+<div align="center">
+
 # 📌 Sistemas Operativos - Proyecto con Llamadas al Sistema  
 
-## 📖 Descripción  
+## 📖 Descripción
+
+</div>
+
+---
+
 Este proyecto explora el uso de llamadas al sistema en entornos Linux y Windows para la gestión de procesos, archivos y memoria.
 
 ## 🛠️ Funcionalidades  
@@ -25,3 +32,12 @@ Este proyecto explora el uso de llamadas al sistema en entornos Linux y Windows 
 
 ## 📌 Autor  
 👨‍💻 **Alejandro De Mendoza**
+
+---
+
+## Autor
+
+**Alejandro De Mendoza**  
+Ingeniero Informático · Especialista en IA · Especialista en Ingeniería de Software · Máster en Arquitectura de Software
+
+[![GitHub](https://img.shields.io/badge/GitHub-AlejoTechEngineer-181717?style=for-the-badge&logo=github)](https://github.com/AlejoTechEngineer)
