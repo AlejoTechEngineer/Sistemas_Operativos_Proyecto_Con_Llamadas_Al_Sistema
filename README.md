@@ -35,6 +35,20 @@ Este proyecto explora el uso de llamadas al sistema en entornos Linux y Windows 
 
 ---
 
+## Arquitectura
+
+```mermaid
+flowchart TD
+    A[Codigo fuente C/C++ - main.c] --> B[Compilacion - gcc Linux / cl Windows]
+    B --> C[Llamadas al Sistema]
+    C --> D[Gestion de Archivos - open / read / write / close]
+    C --> E[Gestion de Procesos - fork / exec / wait / waitpid]
+    C --> F[Gestion de Memoria - mmap / malloc / brk]
+    C --> G[IPC - pipe / shared memory / signals]
+    C --> H[Concurrencia - Pthreads / mutex / semaforos]
+    D & E & F & G & H --> I[Ejecucion en Linux / Windows - Analisis por consola]
+```
+
 ## Autor
 
 **Alejandro De Mendoza**  
