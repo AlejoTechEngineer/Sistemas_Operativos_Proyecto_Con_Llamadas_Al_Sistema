@@ -16,6 +16,20 @@ Este proyecto explora el uso de llamadas al sistema en entornos Linux y Windows 
 - Gestión de memoria y comunicación entre procesos (IPC).  
 - Implementación de programación concurrente con hilos y procesos.  
 
+## Arquitectura
+
+```mermaid
+flowchart TD
+    A[Codigo fuente C/C++ - main.c] --> B[Compilacion - gcc Linux / cl Windows]
+    B --> C[Llamadas al Sistema]
+    C --> D[Gestion de Archivos - open / read / write / close]
+    C --> E[Gestion de Procesos - fork / exec / wait / waitpid]
+    C --> F[Gestion de Memoria - mmap / malloc / brk]
+    C --> G[IPC - pipe / shared memory / signals]
+    C --> H[Concurrencia - Pthreads / mutex / semaforos]
+    D & E & F & G & H --> I[Ejecucion en Linux / Windows - Analisis por consola]
+```
+
 ## 🚀 Tecnologías utilizadas  
 - C / C++  
 - Bash / PowerShell  
@@ -34,20 +48,6 @@ Este proyecto explora el uso de llamadas al sistema en entornos Linux y Windows 
 👨‍💻 **Alejandro De Mendoza**
 
 ---
-
-## Arquitectura
-
-```mermaid
-flowchart TD
-    A[Codigo fuente C/C++ - main.c] --> B[Compilacion - gcc Linux / cl Windows]
-    B --> C[Llamadas al Sistema]
-    C --> D[Gestion de Archivos - open / read / write / close]
-    C --> E[Gestion de Procesos - fork / exec / wait / waitpid]
-    C --> F[Gestion de Memoria - mmap / malloc / brk]
-    C --> G[IPC - pipe / shared memory / signals]
-    C --> H[Concurrencia - Pthreads / mutex / semaforos]
-    D & E & F & G & H --> I[Ejecucion en Linux / Windows - Analisis por consola]
-```
 
 ## Autor
 
